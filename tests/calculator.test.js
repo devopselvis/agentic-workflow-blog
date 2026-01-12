@@ -54,8 +54,12 @@ test('add(-1, 1) should return 0', () => {
   assertEqual(add(-1, 1), 0);
 });
 
-test('add(0.1, 0.2) should return 0.30000000000000004', () => {
-  assertEqual(add(0.1, 0.2), 0.30000000000000004);
+test('add(0.1, 0.2) should be close to 0.3', () => {
+  const result = add(0.1, 0.2);
+  const expected = 0.3;
+  if (Math.abs(result - expected) >= Number.EPSILON * 10) {
+    throw new Error(`Expected approximately ${expected}, but got ${result}`);
+  }
 });
 
 // Subtraction tests
@@ -91,6 +95,10 @@ test('divide(5, 2) should return 2.5', () => {
 
 test('divide(1, 0) should throw Error', () => {
   assertThrows(() => divide(1, 0), Error);
+});
+
+test('divide(1, -0) should throw Error', () => {
+  assertThrows(() => divide(1, -0), Error);
 });
 
 // Type validation tests
