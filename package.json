@@ -4,7 +4,12 @@
   "description": "Repository for testing chaining of agents and handovers",
   "main": "src/calculator.js",
   "scripts": {
-    "test": "node tests/calculator.test.js"
+    "test": "node tests/calculator.test.js",
+    "test:all": "node tests/run-all-tests.js",
+    "test:comprehensive": "node tests/calculator.comprehensive.test.js",
+    "test:edge": "node tests/calculator.edge.test.js",
+    "test:performance": "node tests/calculator.performance.test.js",
+    "examples": "node examples.js"
   },
   "keywords": [
     "calculator",
