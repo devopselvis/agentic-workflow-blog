@@ -1,0 +1,21 @@
+{
+  "name": "agentic-workflow-test",
+  "version": "1.0.0",
+  "description": "Demonstration of agent workflow system with a production-ready calculator module featuring comprehensive testing and documentation",
+  "main": "src/calculator.js",
+  "scripts": {
+    "test": "node tests/calculator.test.js",
+    "test:all": "node tests/run-all-tests.js",
+    "test:comprehensive": "node tests/calculator.comprehensive.test.js",
+    "test:edge": "node tests/calculator.edge.test.js",
+    "test:performance": "node tests/calculator.performance.test.js",
+    "examples": "node examples.js"
+  },
+  "keywords": [
+    "calculator",
+    "agent-workflow"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
