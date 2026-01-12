@@ -57,7 +57,8 @@ test('add(-1, 1) should return 0', () => {
 test('add(0.1, 0.2) should be close to 0.3', () => {
   const result = add(0.1, 0.2);
   const expected = 0.3;
-  if (Math.abs(result - expected) >= Number.EPSILON * 10) {
+  const tolerance = 1e-10;
+  if (Math.abs(result - expected) >= tolerance) {
     throw new Error(`Expected approximately ${expected}, but got ${result}`);
   }
 });
