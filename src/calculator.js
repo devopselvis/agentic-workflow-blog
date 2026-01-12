@@ -13,6 +13,8 @@
  * @param {*} value - The value to validate
  * @param {string} paramName - The parameter name for error messages
  * @throws {TypeError} If value is not a number
+ * @note Currently unused but provided for future extensibility
+ *       (e.g., single-argument operations like sqrt, abs, etc.)
  */
 function validateNumber(value, paramName) {
   if (typeof value !== 'number') {

@@ -2,7 +2,7 @@
 
 A lightweight, robust JavaScript calculator module providing basic arithmetic operations with comprehensive error handling and type validation.
 
-[![Tests](https://img.shields.io/badge/tests-114%20passing-brightgreen)]()
+[![Tests](https://img.shields.io/badge/tests-110%2F114%20passing-brightgreen)]()
 [![Coverage](https://img.shields.io/badge/coverage-96.5%25-brightgreen)]()
 [![Performance](https://img.shields.io/badge/performance-excellent-brightgreen)]()
 [![License](https://img.shields.io/badge/license-ISC-blue)]()
