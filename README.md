@@ -36,6 +36,33 @@ Each agent is a custom agent definition stored in `.github/agents/` that can be 
                           (if changes requested)
 ```
 
+## Example Implementation: Calculator Module
+
+This repository includes a **production-ready calculator module** that demonstrates the complete agent workflow in action:
+
+- ✅ **Developed** by develop-agent with clean, well-structured code
+- ✅ **Tested** by test-agent with 114 comprehensive tests (96.5% pass rate)
+- ✅ **Documented** by document-agent with complete API reference and examples
+- ✅ **Reviewed** by review-agent for quality assurance
+
+**See the Calculator**: [CALCULATOR.md](CALCULATOR.md) - Complete calculator documentation
+
+### Calculator Quick Start
+
+```javascript
+import { add, subtract, multiply, divide } from './src/calculator.js';
+
+add(5, 3);        // → 8
+subtract(10, 4);  // → 6
+multiply(6, 7);   // → 42
+divide(20, 5);    // → 4
+```
+
+Run tests: `npm test` or `npm run test:all`  
+See examples: `npm run examples`
+
+---
+
 ## Quick Start
 
 ### Using Custom Agent Handovers

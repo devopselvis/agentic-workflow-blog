@@ -1,7 +1,7 @@
 {
   "name": "agentic-workflow-test",
   "version": "1.0.0",
-  "description": "Repository for testing chaining of agents and handovers",
+  "description": "Demonstration of agent workflow system with a production-ready calculator module featuring comprehensive testing and documentation",
   "main": "src/calculator.js",
   "scripts": {
     "test": "node tests/calculator.test.js",
