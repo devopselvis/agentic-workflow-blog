@@ -1,0 +1,16 @@
+{
+  "name": "agentic-workflow-test",
+  "version": "1.0.0",
+  "description": "Repository for testing chaining of agents and handovers",
+  "main": "src/calculator.js",
+  "scripts": {
+    "test": "node tests/calculator.test.js"
+  },
+  "keywords": [
+    "calculator",
+    "agent-workflow"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
